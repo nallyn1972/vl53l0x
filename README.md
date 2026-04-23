@@ -25,6 +25,11 @@ If a future ESP-IDF major release changes I2C APIs, this component fails fast at
 
 GitHub Actions workflow: [.github/workflows/idf-matrix-ci.yml](.github/workflows/idf-matrix-ci.yml)
 
+Release assets:
+- [CHANGELOG.md](CHANGELOG.md)
+- [.github/release.yml](.github/release.yml)
+- [.github/RELEASE_TEMPLATE.md](.github/RELEASE_TEMPLATE.md)
+
 - Builds with ESP-IDF `v5.5.4`
 - Builds with ESP-IDF `v6.0.0`
 - Compiles the ESP32 test application against this component
