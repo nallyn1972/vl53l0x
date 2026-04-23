@@ -1,6 +1,6 @@
 version: "0.1.0"
 description: "ESP-IDF component wrapper for ST VL53L0X API"
-url: "https://github.com/your-org/vl53l0x-idf"
+url: "https://github.com/nallyn1972/vl53l0x"
 license: "BSD-3-Clause"
 tags:
   - esp-idf
