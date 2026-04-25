@@ -1,0 +1,22 @@
+# ESP-IDF build artifacts
+build/
+**/build/
+
+# CMake and Ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+build.ninja
+compile_commands.json
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache (for helper scripts if any)
+__pycache__/
+*.pyc

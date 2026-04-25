@@ -1,0 +1,20 @@
+idf_component_register(
+    SRCS
+        "src/vl53l0x_idf.c"
+        "src/vl53l0x_platform_idf.c"
+        "src/vl53l0x_platform_log_idf.c"
+        "st_api/core/src/vl53l0x_api.c"
+        "st_api/core/src/vl53l0x_api_calibration.c"
+        "st_api/core/src/vl53l0x_api_core.c"
+        "st_api/core/src/vl53l0x_api_ranging.c"
+        "st_api/core/src/vl53l0x_api_strings.c"
+    INCLUDE_DIRS
+        "include"
+        "st_api/core/inc"
+        "st_api/platform/inc"
+    REQUIRES
+        esp_driver_i2c
+        esp_driver_gpio
+        esp_timer
+        freertos
+)

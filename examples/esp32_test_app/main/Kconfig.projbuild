@@ -1,0 +1,24 @@
+menu "VL53L0X Test App"
+
+config VL53L0X_TEST_I2C_SDA
+    int "I2C SDA GPIO"
+    default 21
+
+config VL53L0X_TEST_I2C_SCL
+    int "I2C SCL GPIO"
+    default 22
+
+config VL53L0X_TEST_XSHUT_GPIO
+    int "XSHUT GPIO (-1 to disable)"
+    default -1
+
+config VL53L0X_TEST_GPIO1_GPIO
+    int "GPIO1 interrupt pin (-1 to disable)"
+    default -1
+
+config VL53L0X_TEST_PERIOD_MS
+    int "Measurement period (ms)"
+    default 1000
+    range 50 10000
+
+endmenu

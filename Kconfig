@@ -1,0 +1,17 @@
+menu "VL53L0X"
+
+config VL53L0X_POLLING_DELAY_MS
+    int "Polling delay in milliseconds"
+    default 2
+    range 0 20
+    help
+        Delay used by VL53L0X_PollingDelay during internal polling loops.
+
+config VL53L0X_I2C_TIMEOUT_MS
+    int "I2C transfer timeout in milliseconds"
+    default 100
+    range 10 1000
+    help
+        Timeout used for each I2C transmit/receive operation.
+
+endmenu
