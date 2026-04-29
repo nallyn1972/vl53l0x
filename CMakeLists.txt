@@ -1,6 +1,7 @@
 idf_component_register(
     SRCS
         "src/vl53l0x_idf.c"
+        "src/vl53l0x_sensor.c"
         "src/vl53l0x_platform_idf.c"
         "src/vl53l0x_platform_log_idf.c"
         "st_api/core/src/vl53l0x_api.c"
